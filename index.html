@@ -1,0 +1,89 @@
+<!-- This is a Dictionary App using the Dictionary html css node js bootstrap api -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dictionary</title>
+</head>
+
+<body>
+    <!-- Navbar 😊 -->
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/Screenshot 2023-06-18 172042.png" alt="logo" width="30" height="30"
+                    class=" d-inline-block align-text-top">
+                <span class="logo--class">Dictionary</span>
+            </a>
+
+            <div class="form-check form-switch switch m-2 ms-auto">
+
+                <input class="form-check-input" type="checkbox" value="yes" id="accept"
+                    style="background-color: #6c7785;" />
+            </div>
+        </div>
+    </nav>
+
+    <!-- second div for taking input 😊 -->
+    <div class="main-container">
+
+        <div class="input--div">
+
+
+            <input class="input-res" placeholder="Enter what you want to search" id="inputValues" type="text"
+                required />
+            <i class="fa-solid fa-magnifying-glass fa-xl fa-beat fa-xl m-2 serachBtn"></i>
+
+
+        </div>
+
+
+        <div class="description--div">
+
+            <div class="keyworld--div">
+
+                <h1 class="serachVal"></h1>
+                <i class="playbtn fa-regular fa-circle-play fa-beat" id="playbtn"
+                    style="--fa-primary-color: #502770; --fa-secondary-color: #e9d0fa;"></i>
+            </div>
+            <hr>
+
+            <div class="noun--div">
+                <h3 class="partOfSpeech"></h3>
+                <p>Meaning</p>
+
+                <ul>
+                    <li class="li-1"></li>
+                    <li class="li-2"></li>
+                    <li class="li-3"></li>
+                </ul>
+                <p>Synonyms - <span class="synonyms"></span></p>
+            </div>
+            <hr>
+
+            <div class="verb--div">
+                <p>Meaning</p>
+                <h3 class="partOfSpeech2"></h3>
+                <ul>
+                    <li class="verbdes"></li>
+                    <p>Example-<span class="verbdefine"></span></p>
+                </ul>
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/0ce72b976b.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+
+</html>

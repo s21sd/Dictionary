@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:ital,wght@0,700;1,700&family=Prompt:wght@300&family=Tilt+Neon&display=swap');
+
+body {
+    background-color: #c1cdde;
+}
+
+.main-container {
+    display: grid;
+    justify-content: center;
+
+}
+
+.input--div {
+    margin: 20px;
+    font-family: 'Tilt Neon', DM Serif Display;
+
+}
+
+.logo--class {
+    font-size: 2rem;
+}
+
+.input-res {
+    width: 50vw;
+    height: 50px;
+    border-radius: 15px;
+    padding-left: 12px;
+    font-size: 22px;
+    background-color: rgba(244, 244, 244, 255);
+}
+
+.keyworld--div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+.serachBtn {
+    cursor: pointer;
+}
+
+.playbtn {
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+h1,
+h3 {
+    font-family: 'Tilt Neon', DM Serif Display;
+    font-size: 3.5rem;
+}
+
+p {
+    color: #827f7f;
+}
+
+.synonyms {
+    color: #b286db;
+}
+
+@media only screen and (min-device-width : 360px) and (max-device-width : 640px) {
+
+    .main-container {
+        margin: 12px;
+
+    }
+
+
+
+    .input--div {  
+        text-align: center;
+     
+
+
+    }
+
+    .logo--class {
+        font-size: 1rem;
+    }
+
+    h1,
+    h3 {
+
+        font-size: 2rem;
+    }
+
+
+
+
+
+
+}
